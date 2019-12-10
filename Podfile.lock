@@ -1,0 +1,16 @@
+PODS:
+  - Verovio (2.3.3)
+
+DEPENDENCIES:
+  - Verovio
+
+SPEC REPOS:
+  trunk:
+    - Verovio
+
+SPEC CHECKSUMS:
+  Verovio: c6c361f6b1b4680989b7565f820428a492e7bc5b
+
+PODFILE CHECKSUM: 6c2d42143c078ead9582319ad22e1f10f442bad7
+
+COCOAPODS: 1.8.4

@@ -3,19 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E981F2BECCA9DBF3CFD9B2D /* Pods_VerovioExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223D293F17F3D0334217D1C6 /* Pods_VerovioExample.framework */; };
 		BB2A505C239F7E3A00CCFC4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2A505B239F7E3A00CCFC4E /* AppDelegate.swift */; };
 		BB2A505E239F7E3A00CCFC4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2A505D239F7E3A00CCFC4E /* SceneDelegate.swift */; };
 		BB2A5060239F7E3A00CCFC4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2A505F239F7E3A00CCFC4E /* ViewController.swift */; };
 		BB2A5063239F7E3A00CCFC4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2A5061239F7E3A00CCFC4E /* Main.storyboard */; };
 		BB2A5065239F7E3C00CCFC4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2A5064239F7E3C00CCFC4E /* Assets.xcassets */; };
 		BB2A5068239F7E3C00CCFC4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2A5066239F7E3C00CCFC4E /* LaunchScreen.storyboard */; };
+		BB2A5072239F7F0000CCFC4E /* VerovioWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB2A5071239F7F0000CCFC4E /* VerovioWrapper.mm */; };
+		BB2A5074239F8BCC00CCFC4E /* Chopin_Etude_op.10_no.9.mei in Resources */ = {isa = PBXBuildFile; fileRef = BB2A5073239F8BCC00CCFC4E /* Chopin_Etude_op.10_no.9.mei */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		223D293F17F3D0334217D1C6 /* Pods_VerovioExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VerovioExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		291765BE9B4D475AD495AED7 /* Pods-VerovioExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VerovioExample.debug.xcconfig"; path = "Target Support Files/Pods-VerovioExample/Pods-VerovioExample.debug.xcconfig"; sourceTree = "<group>"; };
+		415A626BEC1200182324274A /* Pods-VerovioExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VerovioExample.release.xcconfig"; path = "Target Support Files/Pods-VerovioExample/Pods-VerovioExample.release.xcconfig"; sourceTree = "<group>"; };
 		BB2A5058239F7E3A00CCFC4E /* VerovioExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerovioExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2A505B239F7E3A00CCFC4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB2A505D239F7E3A00CCFC4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,10 @@
 		BB2A5064239F7E3C00CCFC4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB2A5067239F7E3C00CCFC4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB2A5069239F7E3C00CCFC4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB2A506F239F7EFF00CCFC4E /* VerovioExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VerovioExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		BB2A5070239F7F0000CCFC4E /* VerovioWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerovioWrapper.h; sourceTree = "<group>"; };
+		BB2A5071239F7F0000CCFC4E /* VerovioWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VerovioWrapper.mm; sourceTree = "<group>"; };
+		BB2A5073239F8BCC00CCFC4E /* Chopin_Etude_op.10_no.9.mei */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Chopin_Etude_op.10_no.9.mei; path = ../../../Downloads/Chopin_Etude_op.10_no.9.mei; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E981F2BECCA9DBF3CFD9B2D /* Pods_VerovioExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF250CB9C66AB580A9790E9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				291765BE9B4D475AD495AED7 /* Pods-VerovioExample.debug.xcconfig */,
+				415A626BEC1200182324274A /* Pods-VerovioExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BB2A504F239F7E3A00CCFC4E = {
 			isa = PBXGroup;
 			children = (
 				BB2A505A239F7E3A00CCFC4E /* VerovioExample */,
 				BB2A5059239F7E3A00CCFC4E /* Products */,
+				AF250CB9C66AB580A9790E9B /* Pods */,
+				D0EEDBECF40901D305EAA316 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +81,24 @@
 				BB2A505B239F7E3A00CCFC4E /* AppDelegate.swift */,
 				BB2A505D239F7E3A00CCFC4E /* SceneDelegate.swift */,
 				BB2A505F239F7E3A00CCFC4E /* ViewController.swift */,
+				BB2A5070239F7F0000CCFC4E /* VerovioWrapper.h */,
+				BB2A5071239F7F0000CCFC4E /* VerovioWrapper.mm */,
+				BB2A506F239F7EFF00CCFC4E /* VerovioExample-Bridging-Header.h */,
+				BB2A5073239F8BCC00CCFC4E /* Chopin_Etude_op.10_no.9.mei */,
 				BB2A5061239F7E3A00CCFC4E /* Main.storyboard */,
 				BB2A5064239F7E3C00CCFC4E /* Assets.xcassets */,
 				BB2A5066239F7E3C00CCFC4E /* LaunchScreen.storyboard */,
 				BB2A5069239F7E3C00CCFC4E /* Info.plist */,
 			);
 			path = VerovioExample;
+			sourceTree = "<group>";
+		};
+		D0EEDBECF40901D305EAA316 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				223D293F17F3D0334217D1C6 /* Pods_VerovioExample.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +108,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB2A506C239F7E3C00CCFC4E /* Build configuration list for PBXNativeTarget "VerovioExample" */;
 			buildPhases = (
+				87B68BD22A715A93336B0CE9 /* [CP] Check Pods Manifest.lock */,
 				BB2A5054239F7E3A00CCFC4E /* Sources */,
 				BB2A5055239F7E3A00CCFC4E /* Frameworks */,
 				BB2A5056239F7E3A00CCFC4E /* Resources */,
+				C1B36C5D0CEFE9F4C6A4B4B9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -98,6 +134,7 @@
 				TargetAttributes = {
 					BB2A5057239F7E3A00CCFC4E = {
 						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
 					};
 				};
 			};
@@ -127,16 +164,60 @@
 				BB2A5068239F7E3C00CCFC4E /* LaunchScreen.storyboard in Resources */,
 				BB2A5065239F7E3C00CCFC4E /* Assets.xcassets in Resources */,
 				BB2A5063239F7E3A00CCFC4E /* Main.storyboard in Resources */,
+				BB2A5074239F8BCC00CCFC4E /* Chopin_Etude_op.10_no.9.mei in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87B68BD22A715A93336B0CE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VerovioExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1B36C5D0CEFE9F4C6A4B4B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VerovioExample/Pods-VerovioExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VerovioExample/Pods-VerovioExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VerovioExample/Pods-VerovioExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BB2A5054239F7E3A00CCFC4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB2A5072239F7F0000CCFC4E /* VerovioWrapper.mm in Sources */,
 				BB2A5060239F7E3A00CCFC4E /* ViewController.swift in Sources */,
 				BB2A505C239F7E3A00CCFC4E /* AppDelegate.swift in Sources */,
 				BB2A505E239F7E3A00CCFC4E /* SceneDelegate.swift in Sources */,
@@ -281,8 +362,10 @@
 		};
 		BB2A506D239F7E3C00CCFC4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 291765BE9B4D475AD495AED7 /* Pods-VerovioExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BNV3V68G55;
 				INFOPLIST_FILE = VerovioExample/Info.plist;
@@ -292,6 +375,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.verovio.VerovioExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VerovioExample/VerovioExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,8 +384,10 @@
 		};
 		BB2A506E239F7E3C00CCFC4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 415A626BEC1200182324274A /* Pods-VerovioExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BNV3V68G55;
 				INFOPLIST_FILE = VerovioExample/Info.plist;
@@ -310,6 +397,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.verovio.VerovioExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VerovioExample/VerovioExample-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
